@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 
 namespace ProjectionSample
 {
-  // Builds an in-memory projector for a given select expression. Uses ResultItems to resolve references to query sources. Does not support 
+  // Builds an in-memory projector for a given select expression. Uses ResultObjectMapping to resolve references to query sources. Does not support 
   // sub-queries.
   public class ProjectorBuildingExpressionTreeVisitor : ExpressionTreeVisitor
   {
